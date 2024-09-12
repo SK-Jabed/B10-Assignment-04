@@ -1,4 +1,4 @@
-// problem 3 
+// problem-03 
 
 function checkDigitsInName(name) {
     if(typeof name !== "string") {

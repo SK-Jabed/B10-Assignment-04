@@ -1,4 +1,4 @@
-// Problem 2
+// Problem-02
 
 function sendNotification(email) {
     if(!email.includes("@")) {

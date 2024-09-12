@@ -1,4 +1,4 @@
-// Problem-4 
+// Problem-04 
 
 function calculateFinalScore(obj) {
     if(typeof obj !== "object") {

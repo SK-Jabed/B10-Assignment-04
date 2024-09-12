@@ -1,3 +1,5 @@
+// Problem-05
+
 function waitingTime(waitingTimes , serialNumber) {
     if(!Array.isArray(waitingTimes) || typeof serialNumber !== "number") {
         return "Invalid Input";
@@ -12,7 +14,6 @@ function waitingTime(waitingTimes , serialNumber) {
     let remainingInterviews = moreSerial * averageTime;
     return remainingInterviews;
 }
-
 
 console.log(waitingTime([ 3, 5, 7, 11, 6 ], 10));
 console.log(waitingTime([13, 2], 6));
